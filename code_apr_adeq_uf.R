@@ -5,10 +5,10 @@ pacman:: p_load(httr, jsonlite, ggplot2, stringr, tidyr, openxlsx, writexl)
 
 
 
-API_URL <- "https://backend.rpinep2.prd.app.rnp.br/ide/send-process/e786d2fd-b215-40f1-bb69-08edfc593f90"
+API_URL <- "https://backend.rpinep2.prd.app.rnp.br/ide/send-process/d5cad842-4c33-415d-aed0-d8a33e0872d2"
 FILEPATH_DIR <- "INEP_DATA"
-TOKEN_IDE <- "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE0MjJhN2U3LTg2OGItNDYxOC05MzM0LWE0NGUwOTExODllOCIsInJvbGUiOlsiUk9MRV9SRVNFQVJDSEVSIl0sIm5hbWUiOiJQRURSTyBBTEVYQU5EUkUgU0FOVE9TIFZFTE9TTyIsImVtYWlsIjoicGVkcm92ZWxsb3NvX0Bob3RtYWlsLmNvbSIsImNwZiI6IjA1MjM1ODQ4MzA2Iiwic291cmNlIjoiZXh0ZXJuYWwtaW50ZWdyYXRpb24iLCJpYXQiOjE3Njg5OTk4MzYsImV4cCI6MTc2OTYwNDYzNn0.s5dBFhKetca9OIfAow-EgBOW3lHr84QQwx8mrtzJT0E"
-PROFILE_ID <- "2c25a386-88f1-4d68-ba24-a2088e98a12c"
+TOKEN_IDE <- "TOKEN_IDE"
+PROFILE_ID <- "PROFILE_ID"
 
 
 SQL_QUERY <- "
